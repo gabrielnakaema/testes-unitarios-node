@@ -1,5 +1,4 @@
 import { pathsToModuleNameMapper } from "ts-jest/utils";
-
 /*
 
  * For a detailed explanation regarding each configuration property and type check, visit:
@@ -181,7 +180,7 @@ export default {
 
   // The paths to modules that run some code to configure or set up the testing environment before each test
 
-  // setupFiles: [],
+  setupFiles: ["dotenv/config"],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
 
